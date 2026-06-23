@@ -5,19 +5,21 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Simplificar o entendimento das finanças pessoais e esclarecer sobre possibilidades de investimentos.
+
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Esclarecendo conceitos com informações baseadas no perfil de cada cliente. Considera o perfil de investimentos de cada cliente para dosar como cada informação será passada, trazendo uma experiência extremamente personalizada.
+Apesar de não sugerir investimentos o agente é capaz de fazer comparções entre investimentos e informar pontos chave para que cada cliente possa tomar suas próprias decisões de forma mais embasada.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Todos os clientes que desejem informações sobre investimentos ou que busquem aprender sobre os diversos tipos de produtos financeiros oferecidos pelo banco.
 
----
+---|###---###---###--->
 
 ## Persona e Tom de Voz
 

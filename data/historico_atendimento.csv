@@ -4,3 +4,13 @@ data,canal,tema,resumo,resolvido
 2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
 2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
 2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+2025-09-17,chat,Conta digital,Cliente solicitou informações sobre abertura de conta,sim
+2025-09-19,email,Cartão de crédito,Cliente esclareceu dúvidas sobre limite disponível,sim
+2025-09-24,telefone,Pix,Cliente reportou atraso em transferência Pix,sim
+2025-09-28,chat,Investimentos,Cliente recebeu orientação sobre perfil de investidor,sim
+2025-10-03,email,Comprovante bancário,Cliente solicitou envio de comprovante de transferência,sim
+2025-10-08,telefone,Senha de acesso,Cliente realizou redefinição de senha com sucesso,sim
+2025-10-15,chat,Fundos de investimento,Cliente pediu informações sobre fundos de renda fixa,sim
+2025-10-18,email,Débito automático,Cliente cadastrou conta para pagamento automático,sim
+2025-10-22,telefone,Segurança da conta,Cliente confirmou procedimentos de autenticação em duas etapas,sim
+2025-10-27,chat,Extrato bancário,Cliente solicitou orientação para exportação de extrato em PDF,sim

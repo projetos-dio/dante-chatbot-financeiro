@@ -9,3 +9,13 @@ data,descricao,categoria,valor,tipo
 2025-10-15,Conta de Luz,moradia,180.00,saida
 2025-10-20,Academia,saude,99.00,saida
 2025-10-25,Combustível,transporte,250.00,saida
+2025-10-26,Internet,moradia,99.90,saida
+2025-10-27,Plano de Celular,servicos,59.90,saida
+2025-10-28,Cinema,lazer,42.00,saida
+2025-10-29,Padaria,alimentacao,28.50,saida
+2025-10-30,Freelance,receita,850.00,entrada
+2025-10-31,Investimento,fundos,500.00,saida
+2025-11-01,Dividendos,investimentos,120.00,entrada
+2025-11-02,Seguro do Carro,transporte,180.00,saida
+2025-11-03,Consulta Médica,saude,200.00,saida
+2025-11-05,Presente,lazer,150.00,saida

@@ -19,7 +19,6 @@ Apesar de não sugerir investimentos o agente é capaz de fazer comparções ent
 
 Todos os clientes que desejem informações sobre investimentos ou que busquem aprender sobre os diversos tipos de produtos financeiros oferecidos pelo banco.
 
----|###---###---###--->
 
 ## Persona e Tom de Voz
 
@@ -78,10 +77,10 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] Respostas sempre baseadas em dados fornecidos como contexto
-- [ ] Não recomenda nenhum tipo de investimentos, apenas instrui
-- [ ] Admite quando não sabe de algo
-- [ ] Informa ao cliente, de forma direta, quando uma pergunta estiver fora do contexto que o agente é capaz de resopnder
+-  Respostas sempre baseadas em dados fornecidos como contexto
+-  Não recomenda nenhum tipo de investimentos, apenas instrui
+-  Admite quando não sabe de algo
+-  Informa ao cliente, de forma direta, quando uma pergunta estiver fora do contexto que o agente é capaz de resopnder
 
 
 ### Limitações Declaradas

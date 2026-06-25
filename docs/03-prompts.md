@@ -130,7 +130,5 @@ Opções são contratos que dão o direito de comprar ou vender um ativo no futu
 
 ## Observações e Aprendizados
 
-> Registre aqui ajustes que você fez nos prompts e por quê.
+- Na primeira versão do prompt o chatbot fornecia uma excelente resposta, porém muito longa. Uma nova regra (6) foi adicionada para conter o tamanho das respostas fornecidas sem que a essência da resposta seja perdida
 
-- [Observação 1]
-- [Observação 2]

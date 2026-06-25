@@ -5,7 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Simplificar o entendimento das finanças pessoais e esclarecer sobre possibilidades de investimentos.
+Simplifica o entendimento das finanças pessoais e esclarece sobre possibilidades de investimentos, sempre levando em consideração o perfil de investidor do cliente.
 
 
 ### Solução
@@ -13,6 +13,11 @@ Simplificar o entendimento das finanças pessoais e esclarecer sobre possibilida
 
 Esclarecendo conceitos com informações baseadas no perfil de cada cliente. Considera o perfil de investimentos de cada cliente para dosar como cada informação será passada, trazendo uma experiência extremamente personalizada.
 Apesar de não sugerir investimentos o agente é capaz de fazer comparções entre investimentos e informar pontos chave para que cada cliente possa tomar suas próprias decisões de forma mais embasada.
+
+Perfis de investidores:
+Conservador: Procura usar linguagem mais simples, evitando ao máximo termos técnicos
+Moderado: Assume que o cliente já possui certo conhecimento sobre finanças, passa a introduzir termos mais específicos apenas quando necessário
+Agressivo: Trata o cliente como um conhecedor da estrutura básica de investimentos. Usa termos técnicos quando necessário sem tantas restrições, ainda assim mantem o tom educativo, visando esclarecer os pontos citados.
 
 ### Público-Alvo
 > Quem vai usar esse agente?

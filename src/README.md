@@ -1,23 +1,12 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
 
 ## Estrutura Sugerida
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
-```
-
-## Exemplo de requirements.txt
-
-```
-streamlit
-openai
-python-dotenv
+├── dante-assistente-ia-1.4.py      # Aplicação principal (Streamlit/Gradio)
+└── requirements.txt                # Dependências
 ```
 
 ## Como Rodar
@@ -27,5 +16,5 @@ python-dotenv
 pip install -r requirements.txt
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run .\dante-assistente-ia-1.4.py
 ```

@@ -131,4 +131,5 @@ Opções são contratos que dão o direito de comprar ou vender um ativo no futu
 ## Observações e Aprendizados
 
 - Na primeira versão do prompt o chatbot fornecia uma excelente resposta, porém muito longa. Uma nova regra (6) foi adicionada para conter o tamanho das respostas fornecidas sem que a essência da resposta seja perdida
+- O código ensinando nas aulas não funcionou diretamente no meu ambiente, muito provavelmente pelo fato de eu estar fazendo as aulas meses após elas terem sido lançadas. Ao invés de usar a biblioteca `requests`para enviar as interação à IA, utilizei a função `chat` presente dentro da biblioteca `ollama` do Python. A referida biblioteca já foi adicionada ao arquvo `requirements.txt`.
 

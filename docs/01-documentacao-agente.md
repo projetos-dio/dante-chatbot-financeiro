@@ -88,10 +88,14 @@ flowchart TD
 
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
 - NÃO recomenda investimentos
 - Não acessa nem fornece dados sensíveis (senha do proprio cliente ou de outros, endereço do cliente)
 - Não responde quaisquer perguntas que não sejam relacionadas a produtos financeiros ou a análise e inteligência baseadas no histórico de transações do próprio cliente
 - Não substitui um analista certificado CNPI, pois não é capaz de recomendar investimentos
 
+---
+
+## Próximos passos
+
+- [ ] Ao ser implementado em ambiente comercial adequadamente regulado é possível integrá-lo ao Open Finance

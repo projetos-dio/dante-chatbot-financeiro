@@ -42,9 +42,21 @@ produtos = json.load(open('./data/produtos_financeiros.json'))
 ```
 
 ### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
+Os arquivos presentes dentro da pasta `data` são inseridos no código dinamicamente. A cada promnpt eles são fornecidos como base, antes do texto de interação do usuário.
+A inserção dos dados acontece dentro do chat do streamlit
 
-[Sua descrição aqui]
+```python
+response = chat(
+            model=MODEL,
+            #messages=st.session_state.messages,
+            messages=[
+                {'role': 'system', 'content': GERAL}
+                #{'role': 'system', 'content': contexto}
+                ],
+            stream=False
+        )
+```
+
 
 ---
 
@@ -54,12 +66,13 @@ produtos = json.load(open('./data/produtos_financeiros.json'))
 
 ```
 Dados do Cliente:
-- Nome: João Silva
+- Nome: Fulano de Tal
 - Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Reserva: R$ 5.000
 
 Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
+- 01/10: Aluguel   - R$ 1200
+- 02/10: Mercado   - R$ 450
+- 03/10: Streaming - R$ 55
 ...
 ```

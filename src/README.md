@@ -1,7 +1,7 @@
 # Código da Aplicação
 
 
-## Estrutura Sugerida
+## Estrutura
 
 ```
 src/

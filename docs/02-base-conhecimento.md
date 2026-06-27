@@ -18,9 +18,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
+- O carregamento dos estava traznedo caracteres mal formatados, inserido o padrão de formatação `encoding='utf-8'` para solução do problema
 
 ---
 

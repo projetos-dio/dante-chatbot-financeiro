@@ -14,8 +14,6 @@ Esses foram os motivadores para a criação do Dante, o assistente pessoal focad
 
 ---
 
-## O Que Você Deve Entregar
-
 ### 1. Documentação do Agente
 
 Defina **o que** seu agente faz e **como** ele funciona:

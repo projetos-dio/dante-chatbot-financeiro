@@ -3,14 +3,10 @@
 ## Caso de Uso
 
 ### Problema
-> Qual problema financeiro seu agente resolve?
-
 Simplifica o entendimento das finanças pessoais e esclarece sobre possibilidades de investimentos, sempre levando em consideração o perfil de investidor do cliente.
 
 
 ### Solução
-> Como o agente resolve esse problema de forma proativa?
-
 Esclarecendo conceitos com informações baseadas no perfil de cada cliente. Considera o perfil de investimentos de cada cliente para dosar como cada informação será passada, trazendo uma experiência extremamente personalizada.
 Apesar de não sugerir investimentos o agente é capaz de fazer comparções entre investimentos e informar pontos chave para que cada cliente possa tomar suas próprias decisões de forma mais embasada.
 
@@ -20,8 +16,6 @@ Moderado: Assume que o cliente já possui certo conhecimento sobre finanças, pa
 Agressivo: Trata o cliente como um conhecedor da estrutura básica de investimentos. Usa termos técnicos quando necessário sem tantas restrições, ainda assim mantem o tom educativo, visando esclarecer os pontos citados.
 
 ### Público-Alvo
-> Quem vai usar esse agente?
-
 Todos os clientes que desejem informações sobre investimentos ou que busquem aprender sobre os diversos tipos de produtos financeiros oferecidos pelo banco.
 
 

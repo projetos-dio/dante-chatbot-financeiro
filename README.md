@@ -1,16 +1,16 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 💵 Dante - Assistente pessoal de finanças
 
 ## Contexto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+Em 2025 uma pesquisa realizada pelo Observatório Febraban apontou que 55% dos brasileiros entende pouco ou nada sobre educação financeira, e reconhecem a importância deste tema.
+Esta mesma pesquisa informa que 75% das pessoas afirma ter algum nível de acompanhamento ou controle das suas finanças pessoais.
+Esses foram os motivadores para a criação do Dante, o assistente pessoal focado em finanças.
+
 
 - **Antecipar necessidades** ao invés de apenas responder perguntas
 - **Personalizar** sugestões com base no contexto de cada cliente
 - **Cocriar soluções** financeiras de forma consultiva
 - **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
 
 ---
 
@@ -20,18 +20,14 @@ Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots
 
 Defina **o que** seu agente faz e **como** ele funciona:
 
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+- **Caso de Uso:** Simplifica o entendimento das finanças pessoais e esclarece sobre possibilidades de investimentos, sempre levando em consideração o perfil de investidor do cliente.
+- **Persona e Tom de Voz:** Age como um educador, baseia as respostas nas informações de perfil do cliente. Sempre responde em tom cordial e informal
+- **Arquitetura:** Presente no documento [`01-documentacao-agente.md`](https://github.com/projetos-dio/dante-chatbot-financeiro/edit/main/docs/01-documentacao-agente.md)
+- **Segurança:** Para evitar imprecisões e alucinações baseia todas as respostas em uma base robusta de conhecimento e nas informações do perfil do usuário
 
 ---
 
 ### 2. Base de Conhecimento
-
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
 
 | Arquivo | Formato | Descrição |
 |---------|---------|-----------|
@@ -40,21 +36,11 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 | `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
 | `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
 ---
 
 ### 3. Prompts do Agente
 
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
+- **System Prompt, Exemplos de Interação e Tratamento de Edge Cases:** [03-prompts.md](https://github.com/projetos-dio/dante-chatbot-financeiro/blob/main/docs/03-prompts.md) utilizados na solução
 
 ---
 
@@ -62,24 +48,21 @@ Documente os prompts que definem o comportamento do seu agente:
 
 Desenvolva um **protótipo funcional** do seu agente:
 
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
+- Chatbot interativo: Streamlit
+- Integração com LLM: Base local do [gpt-oss:20b](https://ollama.com/library/gpt-oss:20b)
+- Base de conhecimento: Local, presente na [`📁data/`](./data/)
 
-📁 **Pasta:** [`src/`](./src/)
 
 ---
 
 ### 5. Avaliação e Métricas
 
-Descreva como você avalia a qualidade do seu agente:
+O padrão de avaliação utilizado para esta aplicação foram os testes estruturados. O assistente teve êxito em todos os testes realizados de acordo com as métricas sugeridas.
 
 **Métricas Sugeridas:**
 - Precisão/assertividade das respostas
 - Taxa de respostas seguras (sem alucinações)
 - Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
 
 ---
 
@@ -91,20 +74,17 @@ Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
 - Como ele funciona na prática?
 - Por que essa solução é inovadora?
 
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
 ---
 
-## Ferramentas Sugeridas
+## Ferramentas Utilizadas na Criação da Solução
 
 Todas as ferramentas abaixo possuem versões gratuitas:
 
 | Categoria | Ferramentas |
 |-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
+| **Editor de código** | [Vistual Studio](https://code.visualstudio.com/) |
+| **Desenvolvimento** | [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [Ollama](https://ollama.ai/) |
+| **LLMs** | [GPT OSS](https://ollama.com/library/gpt-oss:20b) |
 
 ---
 
